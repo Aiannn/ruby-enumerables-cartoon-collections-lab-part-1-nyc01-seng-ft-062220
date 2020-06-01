@@ -1,3 +1,5 @@
+array = ["a", "b", "c"]
+
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
   #
@@ -6,8 +8,11 @@ def greet_characters(array)
     puts "Hello " + element 
 end
 
+greet_characters(a)
+
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
 end
+
